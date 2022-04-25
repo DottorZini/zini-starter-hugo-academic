@@ -6,9 +6,12 @@ title: Federico Camarda
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD in Robotics and Automation
 
 # Organizations/Affiliations to show in About widget
+organizations:
+- name: Renault Group
+  url: https://www.renault.com/
 organizations:
 - name: Université de Technologie de Compiègne
   url: https://www.utc.fr/
