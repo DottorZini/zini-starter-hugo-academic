@@ -28,9 +28,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
+  - course: PhD in Automation and Robotics
+    institution: Université de Technologie de Compiègne
+    year: 2022
   - course: MEng in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2009
