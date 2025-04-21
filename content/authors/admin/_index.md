@@ -49,9 +49,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:camarda.federico@gmail.com'
-- icon: phone
-  icon_pack: fas
-  link: 'tel:+33 6 56 67 00 27'
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=ngkfvf8AAAAJ&hl=en
