@@ -12,7 +12,6 @@ role: PhD in Robotics and Automation
 organizations:
 - name: Renault Group
   url: https://www.renault.com/
-organizations:
 - name: Université de Technologie de Compiègne
   url: https://www.utc.fr/
 
@@ -22,8 +21,9 @@ bio: My research interests include distributed robotics, mobile computing and pr
 # Interests to show in About widget
 interests:
 - Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Robotics and Automation
+- Computer Vision
+- Machine Learning
 
 # Education to show in About widget
 education:
@@ -48,39 +48,31 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
+  link: 'mailto:camarda.federico@gmail.com'
+- icon: phone
+  icon_pack: fas
+  link: 'tel:+33 6 56 67 00 27'
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=ngkfvf8AAAAJ&hl=en
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/federicocamarda/
-- icon: instagram
-  icon_pack: fab
-  link: https://www.linkedin.com/in/federicocamarda/
+  link: https://linkedin.com/in/federicocamarda
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "camarda.federico@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-F
+Federico Camarda obtained his PhD in Automation and Robotics from Université de Technologie de Compiègne in partnership with Renault Group. His research interests include robotics, computer vision, machine learning and artificial intelligence, with a focus on industrial applications.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
