@@ -1,21 +1,21 @@
 ---
-title: Fusion of evidential occupancy grids for cooperative perception
-summary: Video demonstation of Fusion of evidential occupancy grids for cooperative perception.
+title: Method for detecting a boundary of a traffic lane
+summary: US Patented invention (US20240426624A1) for intelligent vehicle perception of lane boudaries
 tags:
-- Paper
+- Patent
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "https://youtu.be/dndqe1F-kfs"
 
 image:
-  caption: Three colums, from the left: EgoVehicle’s Mapgrid (fusion), EgoVehicle’s camera and Scangrid, OtherVehicle’s camera and Scangrid
+  caption: Lane boundary estimation
   focal_point: Smart
 
 url_code: ""
-url_pdf: "https://hal.science/hal-01938394v1/file/FedericoSoSE2018.pdf"
-url_slides: "uploads/PresentationFedericoSoSE2018.pdf"
-url_video: "https://youtu.be/dndqe1F-kfs"
+url_pdf: "https://patents.google.com/patent/US20240426624A1"
+url_slides: ""
+url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
