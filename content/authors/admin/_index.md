@@ -6,24 +6,23 @@ title: Federico Camarda
 superuser: true
 
 # Role/position/tagline
-role: PhD in Robotics and Automation
+role: AD/ADAS Sofware Engineer | PhD in Automation and Robotics
 
 # Organizations/Affiliations to show in About widget
 organizations:
+- name: Ampere
+  url: https://www.ampere.cars/
 - name: Renault Group
   url: https://www.renault.com/
-- name: Université de Technologie de Compiègne
-  url: https://www.utc.fr/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My work and research aims to to make vehicles smarter and safer.
 
 # Interests to show in About widget
 interests:
+- Intelligent vehicles
 - Artificial Intelligence
-- Robotics and Automation
 - Computer Vision
-- Machine Learning
 
 # Education to show in About widget
 education:
@@ -70,6 +69,6 @@ email: "camarda.federico@gmail.com"
 highlight_name: true
 ---
 
-Federico Camarda obtained his PhD in Automation and Robotics from Université de Technologie de Compiègne in partnership with Renault Group. His research interests include robotics, computer vision, machine learning and artificial intelligence, with a focus on industrial applications.
+Since 2016, I work and research for making vehicles smarter and safer. Today, I design, implement and validate algorithms for road scene understanding in ADAS software of Renault vehicles. I obtained a PhD in Automation and Robotics from Université de Technologie de Compiègne in partnership with Renault Group.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
