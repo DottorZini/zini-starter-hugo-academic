@@ -58,7 +58,7 @@ item:
         * Share Data Through the Art of Visualization
         * Data Analysis with R Programming
         * Google Data Analytics Capstone: Complete a Case Study
-  organization: Google
+  organization: Coursera
   organization_url: https://www.coursera.org
   title: Google Data Analytics
   url: ""
