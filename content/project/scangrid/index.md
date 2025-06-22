@@ -14,7 +14,7 @@ image:
 
 url_code: ""
 url_pdf: "https://hal.science/hal-01938394v1/file/FedericoSoSE2018.pdf"
-url_slides: "static/uploads/PresentationFedericoSoSE2018.pdf"
+url_slides: "uploads/PresentationFedericoSoSE2018.pdf"
 url_video: "https://youtu.be/dndqe1F-kfs"
 
 # Slides (optional).
@@ -22,7 +22,7 @@ url_video: "https://youtu.be/dndqe1F-kfs"
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: static/uploads/PresentationFedericoSoSE2018
+slides: ""
 ---
 
 In the field of autonomous navigation, perception of

@@ -16,7 +16,7 @@ organizations:
   url: https://www.renault.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My work and research aims to to make vehicles smarter and safer.
+bio: My work and research aim is to make vehicles smarter and safer.
 
 # Interests to show in About widget
 interests:
