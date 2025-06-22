@@ -6,10 +6,10 @@ tags:
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+# external_link: ""
 
 image:
-  caption: Three colums, from the left: EgoVehicle’s Mapgrid (fusion), EgoVehicle’s camera and Scangrid, OtherVehicle’s camera and Scangrid
+  caption: Three colums, from the left, EgoVehicle’s Mapgrid (fusion), EgoVehicle’s camera and Scangrid, OtherVehicle’s camera and Scangrid
   focal_point: Smart
 
 url_code: ""
