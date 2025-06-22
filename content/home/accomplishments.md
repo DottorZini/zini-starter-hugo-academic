@@ -23,29 +23,44 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
-  date_end: ""
-  date_start: "2021-01-25"
-  description: ""
-  organization: Coursera
+# - certificate_url: https://www.coursera.org
+#   date_end: ""
+#   date_start: "2021-01-25"
+#   description: ""
+#   organization: Coursera
+#   organization_url: https://www.coursera.org
+#   title: Neural Networks and Deep Learning
+#   url: ""
+# - certificate_url: https://www.edx.org
+#   date_end: ""
+#   date_start: "2021-01-01"
+#   description: Formulated informed blockchain models, hypotheses, and use cases.
+#   organization: edX
+#   organization_url: https://www.edx.org
+#   title: Blockchain Fundamentals
+#   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+# - certificate_url: https://www.datacamp.com
+#   date_end: "2020-12-21"
+#   date_start: "2020-07-01"
+#   description: ""
+#   organization: DataCamp
+#   organization_url: https://www.datacamp.com
+#   title: 'Object-Oriented Programming in R'
+#   url: ""
+- certificate_url: https://coursera.org/share/d1dcb22cc04140b7c15dc1641a035215
+  date_end: "2024-10-01"
+  date_start: "2024-04-01"
+  description: |2-
+        * Ask Questions to Make Data-Driven Decisions
+        * Prepare Data for Exploration
+        * Process Data from Dirty to Clean
+        * Analyze Data to Answer Questions
+        * Share Data Through the Art of Visualization
+        * Data Analysis with R Programming
+        * Google Data Analytics Capstone: Complete a Case Study
+  organization: Google
   organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
-  url: ""
-- certificate_url: https://www.edx.org
-  date_end: ""
-  date_start: "2021-01-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
-  date_end: "2020-12-21"
-  date_start: "2020-07-01"
-  description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R'
+  title: Google Data Analytics
   url: ""
 
 design:
