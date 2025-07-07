@@ -1,6 +1,6 @@
 ---
 title: Fusion of evidential occupancy grids for cooperative perception
-summary: Video demonstation of Fusion of evidential occupancy grids for cooperative perception.
+summary: Published and oral presentation at SOSE18.
 tags:
 - Paper
 date: "2016-04-27T00:00:00Z"
