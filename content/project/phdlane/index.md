@@ -14,7 +14,7 @@ image:
 
 url_code: ""
 url_pdf: "https://theses.hal.science/tel-03735857/file/These_UTC_Federico_Camarda.pdf"
-#url_slides: "uploads/PresentationFedericoSoSE2018.pdf"
+url_slides: "uploads/Camarda_PhD_Defense_Share.pdf"
 url_video: "https://youtu.be/qrf9tXiU2HU?si=nIEJzlnBZGUY-r2k"
 
 # Slides (optional).
