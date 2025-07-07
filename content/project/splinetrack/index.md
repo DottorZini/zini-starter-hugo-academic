@@ -1,5 +1,5 @@
 ---
-title: Multisensor Tracking of Lane Boundaries based on Smart Sensor Fusion
+title: Multi-sensor Tracking of Lane Boundaries based on Smart Sensor Fusion
 summary: Published and oral presentation at IV2020
 tags:
 - Paper

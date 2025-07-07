@@ -1,6 +1,6 @@
 ---
 title: Multi-sensor data fusion for lane boundaries detection applied to autonomous vehicle
-summary: PhD thesis defended on January 14th 2022 at Université de Technologie de Compiègne.
+summary: PhD thesis defended at Université de Technologie de Compiègne
 tags:
 - Paper
 date: "2016-04-27T00:00:00Z"
