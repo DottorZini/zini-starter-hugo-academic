@@ -1,6 +1,6 @@
 ---
 title: Method for detecting a centre line of a traffic lane and for controlling a motor vehicle
-summary: Patented invention (WO2024121172A1) for intelligent vehicle navigation on estimated lane center
+summary: EU Patented invention (WO2024121172A1) for intelligent vehicle navigation on estimated lane center
 tags:
 - Patent
 date: "2016-04-27T00:00:00Z"
