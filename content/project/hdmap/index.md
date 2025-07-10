@@ -17,6 +17,8 @@ url_pdf: "https://patentimages.storage.googleapis.com/e3/c8/54/cbf356ce8cbefd/US
 url_slides: ""
 url_video: ""
 
+featured: true
+
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
