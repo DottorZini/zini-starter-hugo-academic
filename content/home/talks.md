@@ -7,12 +7,12 @@ widget: pages
 headless: true
 
 # Hide this section from the homepage.
-active: false
+active: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 100
 
-title: 'Recent & Upcoming Talks'
+title: 'Recently'
 subtitle:
 
 content:
