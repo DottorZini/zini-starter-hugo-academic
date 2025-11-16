@@ -1,27 +1,53 @@
 ---
-title: Multi-sensor data fusion for lane boundaries detection applied to autonomous vehicle
-summary: PhD thesis defended at Université de Technologie de Compiègne
-tags:
-- Paper
-date: "2016-04-27T00:00:00Z"
+title: "Multi-sensor data fusion for lane boundaries detection applied to autonomous vehicle"
 
-# Optional external URL for project (replaces project detail page).
-external_link: "https://theses.fr/2022COMP2673"
+authors:
+- Federico Camarda
+
+author_notes: []
+
+date: "2022-01-01T00:00:00Z"
+doi: ""
+
+publishDate: "2022-01-01T00:00:00Z"
+
+publication_types: ["7"]
+
+publication: PhD Thesis *Université de Technologie de Compiègne*
+publication_short: PhD Thesis
+
+abstract: "This doctoral thesis investigates multi-sensor data fusion strategies for the detection of lane boundaries in the context of autonomous driving. The work leverages heterogeneous sensor modalities, high-definition maps, and smart sensing techniques to improve the robustness and accuracy of lane boundary perception. The contributions focus on fusion architectures, map-based assistance, and real-time perception pipelines, demonstrating their relevance for modern autonomous vehicle systems."
+
+summary: "A PhD thesis presenting data fusion methods combining sensors and HD maps to enhance lane boundary detection for autonomous vehicles."
+
+tags: ["Autonomous driving", "Multisensor data fusion", "HD maps", "Lane detection", "Sensor fusion", "Perception"]
+
+featured: true
+
+url_pdf: "https://theses.hal.science/tel-03735857v1/file/These_UTC_Federico_Camarda.pdf"
+url_code: ""
+url_dataset: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: "https://theses.hal.science/tel-03735857"
+url_video: ""
 
 image:
-  caption: Three colums, from the left, EgoVehicle’s Mapgrid (fusion), EgoVehicle’s camera and Scangrid, OtherVehicle’s camera and Scangrid
-  focal_point: Smart
+  caption: ""
+  focal_point: ""
+  preview_only: false
 
-url_code: ""
-url_pdf: "https://theses.hal.science/tel-03735857/file/These_UTC_Federico_Camarda.pdf"
-url_slides: "uploads/Camarda_PhD_Defense_Share.pdf"
-url_video: "https://youtu.be/qrf9tXiU2HU?si=nIEJzlnBZGUY-r2k"
+projects: []
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
+# slides: ""
 ---
+{{% callout note %}}
+Click the *Cite* button above to enable visitors to import publication metadata into their reference management software.
+{{% /callout %}}
 
+{{% callout note %}}
+Create your slides in Markdown - click the *Slides* button to check out the example.
+{{% /callout %}}
+
+Supplementary notes can be added here.
