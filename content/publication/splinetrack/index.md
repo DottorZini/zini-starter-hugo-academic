@@ -2,7 +2,7 @@
 title: "Multisensor Tracking of Lane Boundaries based on Smart Sensor Fusion"
 
 authors:
-- Federico Camarda
+- admin
 - Franck Davoine
 - Véronique Cherfaoui
 - Bruno Durand

@@ -2,7 +2,7 @@
 title: "Multi-sensor data fusion for lane boundaries detection applied to autonomous vehicle"
 
 authors:
-- Federico Camarda
+- admin
 
 author_notes: []
 

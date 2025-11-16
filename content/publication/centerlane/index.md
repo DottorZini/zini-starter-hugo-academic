@@ -2,7 +2,7 @@
 title: "Procédé de détection d'une limite d'une voie de circulation"
 
 authors:
-- Federico Camarda
+- admin
 - Véronique Cherfaoui
 - Franck Davoine
 - Bruno Durand
