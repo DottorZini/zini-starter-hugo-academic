@@ -2,7 +2,7 @@
 title: "Method for detecting a boundary of a traffic lane"
 
 authors:
-- Federico Camarda
+- admin
 - Véronique Cherfaoui
 - Franck Davoine
 - Bruno Durand
