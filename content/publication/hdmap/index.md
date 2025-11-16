@@ -14,7 +14,7 @@ doi: ""
 
 publishDate: "2024-12-26T00:00:00Z"
 
-publication_types: ["4"]
+publication_types: ["8"]
 
 publication: Patent *US20240426624A1*
 publication_short: Patent
