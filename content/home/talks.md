@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Hide this section from the homepage.
-active: true
+active: false
 
 # Order that this section appears on the page.
 weight: 100
