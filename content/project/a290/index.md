@@ -1,6 +1,6 @@
 ---
-title: Sensor Fusion and Scene Understanding for ADAS on the Renault 4
-summary: Development of sensor fusion and scene understanding algorithms powering Adaptive Cruise Control (ACC) and Autonomous Emergency Braking (AEB) on the next-generation Renault 4.
+title: Sensor Fusion and Scene Understanding for ADAS on the Alpine A290
+summary: Development of sensor fusion and scene understanding algorithms powering Adaptive Cruise Control (ACC) and Autonomous Emergency Braking (AEB) on the next-generation Alpine A290.
 tags:
 - ADAS
 - Automotive
@@ -16,7 +16,7 @@ date: "2023-01-01T00:00:00Z"
 external_link: ""
 
 image:
-  caption: Renault 4 ADAS perception algorithms
+  caption: Alpine A290 ADAS perception algorithms
   focal_point: Smart
 
 url_code: ""
