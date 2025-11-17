@@ -1,5 +1,5 @@
 ---
-title: Sensor Fusion and Scene Understanding for ADAS on the Renault 5
+title: ADAS on the Renault 5
 summary: Development of sensor fusion and scene understanding algorithms powering Adaptive Cruise Control (ACC) and Autonomous Emergency Braking (AEB) on the next-generation Renault 5.
 tags:
 - ADAS
