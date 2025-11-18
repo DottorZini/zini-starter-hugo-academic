@@ -1,7 +1,7 @@
 ---
-title: Lectio Magistralis — Introduction to Sensor Fusion and Scene Understanding for AD/ADAS
+title: Lectio Magistralis - Introduction to Sensor Fusion and Scene Understanding for AD/ADAS
 
-event: ENSTA Paris — Mastère Spécialisé MM6
+event: ENSTA Paris - Mastère Spécialisé
 event_url: https://www.ensta-paris.fr/
 
 location: ENSTA Paris
@@ -12,7 +12,7 @@ address:
   postcode: '91120'
   country: France
 
-summary: Lectio magistralis delivered for the ENSTA Mastère Spécialisé MM6 program, introducing key concepts in sensor fusion and scene understanding for autonomous driving and ADAS.
+summary: Lectio magistralis delivered for the ENSTA Mastère Spécialisé, introducing key concepts in sensor fusion and scene understanding for autonomous driving and ADAS.
 abstract: "This lecture introduced the fundamental concepts, architectures, and practical challenges of sensor fusion and scene understanding for AD/ADAS systems. Topics included multi-sensor perception pipelines, probabilistic fusion, object tracking, and the role of neural networks in modern autonomous driving stacks, with emphasis on real-world deployment considerations."
 
 date: '2025-02-01T09:00:00Z'
