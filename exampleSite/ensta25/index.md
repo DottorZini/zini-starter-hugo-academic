@@ -8,7 +8,7 @@ location: ENSTA Paris
 address:
   street: 828 Boulevard des Maréchaux
   city: Palaiseau
-  region: Île-de-France
+  region: Ile-de-France
   postcode: '91120'
   country: France
 
