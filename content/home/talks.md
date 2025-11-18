@@ -7,7 +7,7 @@ widget: pages
 headless: true
 
 # Hide this section from the homepage.
-active: false
+active: true
 
 # Order that this section appears on the page.
 weight: 100
@@ -40,5 +40,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 3
 ---
