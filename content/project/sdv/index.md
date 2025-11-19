@@ -1,6 +1,6 @@
 ---
 title: Scene Understanding for ADAS on the FlexEVan SDV
-summary: Development of scene-understanding, perception, and sensor-fusion algorithms powering ADAS functions (AEB, ACC, LCA, ELKA) on Ampere’s FlexEVan — one of the first Software-Defined Vehicles (SDV) from Renault Group.  
+summary: Development of scene-understanding, perception, and sensor-fusion algorithms powering ADAS functions (AEB, ACC, LCA, ELKA) on Ampere’s FlexEVan - one of the first Software-Defined Vehicles (SDV) from Renault Group and in Europe.  
 tags:  
 - ADAS  
 - Automotive  
