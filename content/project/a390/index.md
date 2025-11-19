@@ -1,5 +1,5 @@
 ---
-title: ADAS on the Alpine A390 et al.
+title: ADAS on the Alpine A390
 summary: Development of sensor fusion and scene understanding algorithms powering Adaptive Cruise Control (ACC), Autonomous Emergency Braking (AEB) and Local Hazards Detection (V2X) on the next-generation Alpine A390 and other vehicles on the same project.
 tags:
 - ADAS
