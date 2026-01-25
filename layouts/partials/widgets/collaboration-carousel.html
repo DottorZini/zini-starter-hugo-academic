@@ -1,0 +1,25 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+{{ $headless := $page.Parent.Kind | eq "home" | default true }}
+{{ $title := $page.Title }}
+
+<div class="collaboration-carousel-section">
+  {{ with $title }}
+  <div class="section-heading">
+    <h2>{{ . | markdownify | emojify }}</h2>
+  </div>
+  {{ end }}
+
+  <div class="collaboration-carousel-wrapper">
+    <div class="collaboration-carousel">
+      {{ range $page.Params.collaborations }}
+      <div class="collaboration-item">
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" title="{{ .name }}">
+          <img src="/media/collaborations/{{ .logo }}" alt="{{ .name }}" class="collaboration-logo">
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,130 @@
+// Collaboration Carousel Styles
+.collaboration-carousel-section {
+  padding: 3rem 0;
+  
+  .section-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+}
+
+.collaboration-carousel-wrapper {
+  overflow: hidden;
+  position: relative;
+  padding: 2rem 0;
+  
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, var(--body-bg, #fff), transparent);
+  }
+  
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, var(--body-bg, #fff), transparent);
+  }
+}
+
+.collaboration-carousel {
+  display: flex;
+  gap: 3rem;
+  animation: scroll-carousel 10s linear infinite;
+  width: fit-content;
+  
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+.collaboration-item {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  height: 100px;
+  padding: 1rem;
+  
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.7;
+    
+    &:hover {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+}
+
+.collaboration-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  
+  a:hover & {
+    filter: grayscale(0%);
+  }
+}
+
+@keyframes scroll-carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-180px * 7 - 3rem * 7));
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .collaboration-carousel-section {
+    padding: 2rem 0;
+    
+    .section-heading h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .collaboration-carousel {
+    gap: 2rem;
+  }
+  
+  .collaboration-item {
+    min-width: 140px;
+    height: 80px;
+  }
+  
+  @keyframes scroll-carousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-140px * 7 - 2rem * 7));
+    }
+  }
+}
