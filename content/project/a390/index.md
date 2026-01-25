@@ -16,6 +16,8 @@ date: "2023-01-01T00:00:00Z"
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
+publication_types: ["8"]
+
 image:
   caption: Alpine A390 ADAS perception algorithms
   focal_point: Smart

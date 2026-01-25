@@ -10,24 +10,23 @@ headless: true
 active: false
 
 # Order that this section appears on the page.
-weight: 30
+weight: 80
 
-title: Skills
+title: Collaborated with
 subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description:
   icon: r-project
   icon_pack: fab
-  name: R
-- description: 100%
+- description: ENSTA
   icon: chart-line
   icon_pack: fas
   name: Statistics
-- description: 10%
+- description: ESIEE
   icon: camera-retro
   icon_pack: fas
   name: Photography
