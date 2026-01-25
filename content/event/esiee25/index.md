@@ -1,8 +1,9 @@
 ---
-title: Lectio Magistralis - Introduction to Sensor Fusion and Scene Understanding for AD/ADAS
+#title: Lectio Magistralis - Introduction to Sensor Fusion and Scene Understanding for AD/ADAS
+title: "Teaching: Sensor Fusion and Scene Understanding for AD/ADAS at ESIEE Paris"
 
-event: ESIEE Paris - Mastère Spécialisé
-event_url: https://www.ensta-paris.fr/
+event: ESIEE Paris
+event_url: https://www.esiee.fr/
 
 location: ESIEE Paris
 address:
@@ -12,11 +13,11 @@ address:
   postcode: '91120'
   country: France
 
-summary: Lectio magistralis delivered for the ESIEE Mastère Spécialisé, introducing key concepts in sensor fusion and scene understanding for autonomous driving and ADAS.
+summary: Lectio magistralis delivered for the ESIEE, introducing key concepts in sensor fusion and scene understanding for autonomous driving and ADAS.
 abstract: "This lecture introduced the fundamental concepts, architectures, and practical challenges of sensor fusion and scene understanding for AD/ADAS systems. Topics included multi-sensor perception pipelines, probabilistic fusion, object tracking, and the role of neural networks in modern autonomous driving stacks, with emphasis on real-world deployment considerations."
 
-date: '2025-02-01T09:00:00Z'
-date_end: '2025-02-01T12:00:00Z'
+date: '2025-10-02T09:00:00Z'
+date_end: '2025-10-02T17:00:00Z'
 all_day: false
 
 publishDate: '2025-02-15T00:00:00Z'
