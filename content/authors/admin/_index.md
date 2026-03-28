@@ -47,7 +47,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:camarda.federico@gmail.com'
+  link: '/#contact'
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=ngkfvf8AAAAJ&hl=en
@@ -63,7 +63,7 @@ social:
   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "camarda.federico@gmail.com"
+# email: "camarda.federico@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
