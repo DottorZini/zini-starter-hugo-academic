@@ -4,12 +4,12 @@ title: "Teaching: Sensor Fusion and Scene Understanding for AD/ADAS at Centrale 
 event: École Centrale Nantes
 event_url: https://www.ec-nantes.fr/
 
-location: ECN
+location: Centrale Nantes
 address:
-  street: 828 Boulevard des Maréchaux
-  city: Palaiseau
-  region: Ile-de-France
-  postcode: '91120'
+  street: 1 rue de la Noë
+  city: Nantes
+  region: Pays de la Loire
+  postcode: '44321'
   country: France
 
 summary: Lectio magistralis delivered for the ECN Datasim course, introducing key concepts in sensor fusion and scene understanding for autonomous driving and ADAS.
