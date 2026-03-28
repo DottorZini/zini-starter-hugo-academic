@@ -20,7 +20,7 @@ image:
   preview_only: false
 
 url_slides: ""
-url_code: ""
+url_code: "uploads/sensor_fusion_lab.ipynb"
 url_pdf: ""
 url_video: ""
 ---
@@ -62,6 +62,8 @@ algorithms implemented in Python.
 - **Sensor fusion** — combining measurements from multiple sensors (camera, LiDAR, radar)
 - **Path prediction & collision detection** — predicting future trajectories and detecting potential collisions
 
-{{% callout warning %}}
-The notebook is **coming soon** and will be available for download on this page.
+{{< cta cta_text="Download Notebook (.ipynb)" cta_link="uploads/sensor_fusion_lab.ipynb" cta_new_tab="true" >}}
+
+{{% callout note %}}
+This is a **preview version** of the notebook. Exercises contain skeleton code and `Coming soon` placeholders — full solutions will be released alongside the lecture slides.
 {{% /callout %}}
