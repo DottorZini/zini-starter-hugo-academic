@@ -12,7 +12,7 @@
     position: absolute;
     width: 400px;
     height: auto;
-    left: 55px;  /* horizontal: center of 400px image in 270px circle */
+    left: 5px;  /* horizontal: center of 400px image in 270px circle */
     top:  -38px;  /* vertical: matched to your previously tuned value    */
 }
 
