@@ -1,9 +1,19 @@
 /* =============================================
-   Avatar crop position — adjust the Y% to move the face up/down
-   within the circle (lower % = higher in circle)
+   Avatar crop position
+   Tune `left` to shift horizontally (more negative = further right in circle)
+   Tune `top`  to shift vertically   (more negative = further down in circle)
    ============================================= */
-.avatar {
-    object-position: 85% 38%;
+.avatar.avatar-clip {
+    overflow: hidden;
+    position: relative;
+    object-fit: unset;
+}
+.avatar-raw {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: -65px;  /* horizontal: center of 400px image in 270px circle */
+    top:  -38px;  /* vertical: matched to your previously tuned value    */
 }
 
 /* Custom styles for collaboration carousel */

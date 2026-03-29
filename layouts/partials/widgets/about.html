@@ -26,8 +26,9 @@
       <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
       {{ else if $avatar }}
       {{ $avatar_image := $avatar.Resize "400x" }}
-      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
-           src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+      <div class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}} avatar-clip">
+        <img class="avatar-raw" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+      </div>
       {{ end }}
 
       <div class="portrait-title">
