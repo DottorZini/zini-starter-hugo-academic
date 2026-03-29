@@ -25,6 +25,9 @@ main:
   - name: Talks
     url: '#talks'
     weight: 40
+  - name: Maria DIAZ
+    url: '/authors/maria/'
+    weight: 90
   - name: Contact
     url: '#contact'
     weight: 100
