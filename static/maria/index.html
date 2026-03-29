@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maria-Alejandra DIAZ — Architecte HMONP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --bg: #0c0c0c;
+      --bg-section: #111111;
+      --text: #f0f0f0;
+      --text-muted: #888888;
+      --accent: #c8a96e;
+      --border: #2a2a2a;
+      --max-width: 860px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 2rem;
+      padding: 1.2rem 3rem;
+      background: rgba(12, 12, 12, 0.85);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    /* ─── HERO ─── */
+    #hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8rem 3rem 5rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .hero-label {
+      font-size: 0.75rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      line-height: 1.05;
+      letter-spacing: -0.01em;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 span {
+      display: block;
+    }
+
+    .hero-role {
+      font-size: 1rem;
+      color: var(--text-muted);
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-location {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+    }
+
+    .hero-location::before {
+      content: '◎  ';
+      color: var(--accent);
+    }
+
+    .hero-divider {
+      width: 40px;
+      height: 1px;
+      background: var(--accent);
+      margin: 2.5rem 0;
+    }
+
+    .hero-bio {
+      max-width: 600px;
+      color: #cccccc;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    .scroll-hint {
+      margin-top: 4rem;
+      font-size: 0.72rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .scroll-hint::after {
+      content: ' ↓';
+      color: var(--accent);
+    }
+
+    /* ─── SECTIONS ─── */
+    section {
+      padding: 5rem 3rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      gap: 1.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .section-number {
+      font-size: 0.7rem;
+      color: var(--accent);
+      letter-spacing: 0.15em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      font-size: 2.2rem;
+      letter-spacing: 0.01em;
+    }
+
+    /* ─── EXPERIENCE ─── */
+    .experience-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .experience-item {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 0 2.5rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .experience-item:last-child {
+      border-bottom: none;
+    }
+
+    .exp-date {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      padding-top: 0.15rem;
+      line-height: 1.5;
+    }
+
+    .exp-date .exp-duration {
+      display: block;
+      margin-top: 0.25rem;
+      color: #555;
+      font-size: 0.72rem;
+    }
+
+    .exp-content {}
+
+    .exp-title {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 0.2rem;
+      letter-spacing: 0.01em;
+    }
+
+    .exp-company {
+      font-size: 0.85rem;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.03em;
+    }
+
+    .exp-location {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .exp-desc {
+      font-size: 0.9rem;
+      color: #aaaaaa;
+      line-height: 1.7;
+    }
+
+    .exp-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.75rem;
+    }
+
+    .tag {
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 0.2rem 0.6rem;
+      border-radius: 2px;
+    }
+
+    /* ─── EDUCATION ─── */
+    .education-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .education-item {
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 0 2.5rem;
+      padding: 2rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .education-item:last-child {
+      border-bottom: none;
+    }
+
+    .edu-year {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.04em;
+      padding-top: 0.15rem;
+    }
+
+    .edu-degree {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 0.2rem;
+    }
+
+    .edu-school {
+      font-size: 0.85rem;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+      letter-spacing: 0.02em;
+    }
+
+    .edu-grade {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* ─── SKILLS ─── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1px;
+      border: 1px solid var(--border);
+    }
+
+    .skill-item {
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .skill-item:hover {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    /* ─── CONTACT ─── */
+    #contact {
+      text-align: center;
+      padding: 5rem 3rem 6rem;
+    }
+
+    #contact h2 {
+      margin-bottom: 1rem;
+    }
+
+    .contact-sub {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+    }
+
+    .contact-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.8rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.9rem 2.2rem;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .contact-link:hover {
+      background: var(--accent);
+      color: var(--bg);
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 2rem 3rem;
+      font-size: 0.72rem;
+      color: #444;
+      letter-spacing: 0.08em;
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 640px) {
+      nav {
+        padding: 1rem 1.5rem;
+        gap: 1.2rem;
+      }
+
+      #hero,
+      section {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+
+      #contact {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+
+      .experience-item,
+      .education-item {
+        grid-template-columns: 1fr;
+        gap: 0.3rem;
+      }
+
+      .exp-date,
+      .edu-year {
+        font-size: 0.72rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#experience">Expérience</a>
+    <a href="#education">Formation</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <div id="hero" id="about">
+    <p class="hero-label">Portfolio</p>
+    <h1>
+      <span>Maria-Alejandra</span>
+      <span>DIAZ</span>
+    </h1>
+    <p class="hero-role">Architecte HMONP</p>
+    <p class="hero-location">Versailles, Île-de-France, France</p>
+    <div class="hero-divider"></div>
+    <p class="hero-bio">
+      Architecte HMONP, avec une expérience dans la gestion d'opérations de construction et de réhabilitation, ainsi que dans l'assistance à la direction des travaux, la coordination technique et le suivi opérationnel de projets publics. J'interviens depuis la phase de faisabilité jusqu'à la livraison, en collaboration avec les équipes de maîtrise d'œuvre, les bureaux d'études et les entreprises, dans le cadre d'opérations d'équipements publics. Sensible aux défis liés à la qualité d'utilisation, au contrôle des coûts, aux délais et à la performance environnementale.
+    </p>
+    <p class="scroll-hint">Parcourir</p>
+  </div>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section id="experience">
+    <div class="section-header">
+      <span class="section-number">01</span>
+      <h2>Expérience</h2>
+    </div>
+    <div class="experience-list">
+
+      <div class="experience-item">
+        <div class="exp-date">
+          Nov 2025 — Présent
+          <span class="exp-duration">5 mois</span>
+        </div>
+        <div class="exp-content">
+          <p class="exp-title">Chargée d'opérations immobilières</p>
+          <p class="exp-company">INRAE Ile-de-France — Versailles-Saclay</p>
+          <p class="exp-location">Versailles, Île-de-France, France · Présentiel</p>
+          <p class="exp-desc">Service d'appui à la recherche (SDAR) / Patrimoine. Gestion de dossiers techniques dans le cadre d'opérations de construction et de réhabilitation.</p>
+          <div class="exp-tags">
+            <span class="tag">Marchés publics</span>
+            <span class="tag">Assistance Maîtrise d'ouvrage publique</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-date">
+          Oct 2023 — Avr 2024
+          <span class="exp-duration">7 mois</span>
+        </div>
+        <div class="exp-content">
+          <p class="exp-title">Architecte chargée de projet</p>
+          <p class="exp-company">ATELIER DE PAYSAGES BRUEL DELMAR</p>
+          <p class="exp-location">Paris, Île-de-France, France</p>
+          <p class="exp-desc">ZAC de Moulon (Paris-Saclay) : appui au chef de projet pendant les phases d'études et de coordination technique.</p>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-date">
+          Fév 2022 — Nov 2022
+          <span class="exp-duration">10 mois</span>
+        </div>
+        <div class="exp-content">
+          <p class="exp-title">Monitrice de conférences</p>
+          <p class="exp-company">Ecole nationale supérieure d'architecture de Versailles</p>
+          <p class="exp-location">Versailles, Île-de-France, France · Présentiel</p>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-date">
+          Août 2021 — Fév 2022
+          <span class="exp-duration">7 mois</span>
+        </div>
+        <div class="exp-content">
+          <p class="exp-title">Assistante de projets</p>
+          <p class="exp-company">ALLEGRIA ARCHITECTURES</p>
+          <p class="exp-location">Chatou, Île-de-France, France · Présentiel</p>
+          <p class="exp-desc">Participation à un projet en site patrimonial : proposition d'un concept de façade et suivi des études techniques.</p>
+          <div class="exp-tags">
+            <span class="tag">Architecture technique</span>
+            <span class="tag">Diseño arquitectónico</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-item">
+        <div class="exp-date">
+          Juin 2019 — Août 2019
+          <span class="exp-duration">3 mois</span>
+        </div>
+        <div class="exp-content">
+          <p class="exp-title">Architecte</p>
+          <p class="exp-company">Confipetrol S.A.S. — Freelance</p>
+          <p class="exp-location">Villavicencio, Meta, Colombie</p>
+          <p class="exp-desc">Conception architecturale du contrôle d'accès et de la salle de formation.</p>
+          <div class="exp-tags">
+            <span class="tag">Architecture technique</span>
+            <span class="tag">Diseño arquitectónico</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section id="education">
+    <div class="section-header">
+      <span class="section-number">02</span>
+      <h2>Formation</h2>
+    </div>
+    <div class="education-list">
+
+      <div class="education-item">
+        <div class="edu-year">2023 — 2024</div>
+        <div>
+          <p class="edu-degree">HMONP — Habilitation à la maîtrise d'œuvre en son nom propre</p>
+          <p class="edu-school">Ecole nationale supérieure d'architecture de Versailles</p>
+          <p class="edu-grade">Félicitations du jury</p>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <div class="edu-year">2021 — 2023</div>
+        <div>
+          <p class="edu-degree">Diplôme d'État d'Architecte</p>
+          <p class="edu-school">Ecole nationale supérieure d'architecture de Versailles</p>
+          <p class="edu-grade">Mention très bien</p>
+        </div>
+      </div>
+
+      <div class="education-item">
+        <div class="edu-year">Jan — Juil 2017</div>
+        <div>
+          <p class="edu-degree">Diplomado en Gestion de proyectos de desarrollo — Urban Studies/Affairs</p>
+          <p class="edu-school">BID — Banco Interamericano de Desarrollo</p>
+          <p class="edu-grade">Tres bien</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-number">03</span>
+      <h2>Compétences</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-item">ARCHICAD</div>
+      <div class="skill-item">SketchUp</div>
+      <div class="skill-item">D5 RENDER</div>
+      <div class="skill-item">Revit</div>
+      <div class="skill-item">Marchés publics</div>
+      <div class="skill-item">Maîtrise d'œuvre</div>
+      <div class="skill-item">Maîtrise d'ouvrage</div>
+      <div class="skill-item">Architecture</div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-number">04</span>
+      <h2>Contact</h2>
+    </div>
+    <p class="contact-sub">Retrouvez-moi sur LinkedIn pour échanger.</p>
+    <a class="contact-link" href="https://www.linkedin.com/in/maria-alejandra-diaz-ubaque" target="_blank" rel="noopener noreferrer">
+      LinkedIn →
+    </a>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    &copy; 2026 Maria-Alejandra DIAZ
+  </footer>
+
+</body>
+</html>
