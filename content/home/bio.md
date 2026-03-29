@@ -6,7 +6,7 @@ widget: bio-story
 headless: true
 
 # Activate this widget? true/false
-active: true
+active: false
 
 # Order that this section appears on the page.
 # Placed after the About section (weight: 20) and before Experience (weight: 30)
