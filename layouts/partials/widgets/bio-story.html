@@ -1,0 +1,48 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="bio-story-section">
+  {{ with $page.Title }}
+  <div class="section-heading bio-story-heading">
+    <h2>{{ . | markdownify | emojify }}</h2>
+    {{ with $page.Params.subtitle }}
+    <p class="bio-story-subtitle">{{ . | markdownify | emojify }}</p>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  <div class="bio-story-timeline">
+    {{ range $i, $item := $page.Params.moments }}
+    <div class="bio-story-moment {{ if eq (mod $i 2) 1 }}bio-story-moment--reversed{{ end }}">
+
+      <div class="bio-story-photo-wrap">
+        {{ if $item.photo }}
+        <img src="{{ $item.photo }}" alt="{{ $item.title }}" loading="lazy" class="bio-story-img">
+        {{ else }}
+        <div class="bio-story-photo-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Photo coming soon</span>
+        </div>
+        {{ end }}
+        {{ with $item.caption }}
+        <p class="bio-story-caption">{{ . | markdownify }}</p>
+        {{ end }}
+      </div>
+
+      <div class="bio-story-connector">
+        <div class="bio-story-dot"></div>
+        <div class="bio-story-line"></div>
+      </div>
+
+      <div class="bio-story-content">
+        {{ with $item.year }}
+        <div class="bio-story-year">{{ . }}</div>
+        {{ end }}
+        <h3 class="bio-story-title">{{ $item.title | markdownify }}</h3>
+        <div class="bio-story-description">{{ $item.description | markdownify }}</div>
+      </div>
+
+    </div>
+    {{ end }}
+  </div>
+</div>

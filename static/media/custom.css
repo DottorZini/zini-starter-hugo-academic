@@ -111,7 +111,222 @@ body.dark .collaboration-carousel-wrapper::after {
     }
 }
 
+/* =============================================
+   Bio Story Section
+   ============================================= */
+
+.bio-story-section {
+    padding: 3rem 0;
+}
+
+.bio-story-heading {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.bio-story-heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+}
+
+.bio-story-subtitle {
+    font-size: 1.05rem;
+    opacity: 0.7;
+    margin: 0;
+}
+
+/* Timeline container */
+.bio-story-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Each story moment */
+.bio-story-moment {
+    display: grid;
+    grid-template-columns: 1fr 40px 1fr;
+    align-items: center;
+    gap: 0;
+}
+
+/* Reversed layout: content left, photo right */
+.bio-story-moment--reversed {
+    direction: rtl;
+}
+
+.bio-story-moment--reversed > * {
+    direction: ltr;
+}
+
+/* Photo side */
+.bio-story-photo-wrap {
+    padding: 0 1.5rem;
+}
+
+.bio-story-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bio-story-img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+}
+
+.bio-story-photo-placeholder {
+    width: 100%;
+    height: 280px;
+    border-radius: 12px;
+    border: 2px dashed rgba(128, 128, 128, 0.35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: rgba(128, 128, 128, 0.6);
+    background: rgba(128, 128, 128, 0.04);
+}
+
+.bio-story-photo-placeholder svg {
+    width: 48px;
+    height: 48px;
+    opacity: 0.5;
+}
+
+.bio-story-photo-placeholder span {
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.bio-story-caption {
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin: 0.6rem 0 0;
+    font-style: italic;
+}
+
+/* Centre connector with dot */
+.bio-story-connector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 280px;
+    position: relative;
+}
+
+.bio-story-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--bs-primary, #2962ff);
+    flex-shrink: 0;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    box-shadow: 0 0 0 4px rgba(41, 98, 255, 0.15);
+}
+
+.bio-story-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, rgba(41, 98, 255, 0.3), transparent);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Text content side */
+.bio-story-content {
+    padding: 0 1.5rem;
+}
+
+.bio-story-year {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--bs-primary, #2962ff);
+    background: rgba(41, 98, 255, 0.08);
+    padding: 0.25em 0.75em;
+    border-radius: 999px;
+    margin-bottom: 0.75rem;
+}
+
+.bio-story-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin: 0 0 0.85rem;
+    line-height: 1.3;
+}
+
+.bio-story-description {
+    font-size: 0.97rem;
+    line-height: 1.7;
+    opacity: 0.85;
+}
+
+/* Dark mode adjustments */
+body.dark .bio-story-img {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+}
+
+body.dark .bio-story-img:hover {
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55);
+}
+
+body.dark .bio-story-photo-placeholder {
+    border-color: rgba(200, 200, 200, 0.2);
+    background: rgba(255, 255, 255, 0.03);
+    color: rgba(200, 200, 200, 0.4);
+}
+
 /* Responsive adjustments */
+@media (max-width: 768px) {
+    .bio-story-moment {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .bio-story-moment--reversed {
+        direction: ltr;
+    }
+
+    .bio-story-connector {
+        display: none;
+    }
+
+    .bio-story-photo-wrap,
+    .bio-story-content {
+        padding: 0;
+    }
+
+    .bio-story-img,
+    .bio-story-photo-placeholder {
+        height: 220px;
+    }
+
+    .bio-story-timeline {
+        gap: 3rem;
+    }
+}
+
+/* =============================================
+   Responsive adjustments (existing carousel)
+   ============================================= */
 @media (max-width: 768px) {
     .collaboration-carousel-section {
         padding: 2rem 0;
