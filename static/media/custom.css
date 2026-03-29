@@ -1,3 +1,21 @@
+/* =============================================
+   Avatar crop position
+   Tune `left` to shift horizontally (more negative = further right in circle)
+   Tune `top`  to shift vertically   (more negative = further down in circle)
+   ============================================= */
+.avatar.avatar-clip {
+    overflow: hidden;
+    position: relative;
+    object-fit: unset;
+}
+.avatar-raw {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 0px;  /* horizontal: center of 400px image in 270px circle */
+    top:  -19px;  /* vertical: matched to your previously tuned value    */
+}
+
 /* Custom styles for collaboration carousel */
 
 .collaboration-carousel-section {
