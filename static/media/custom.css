@@ -1,14 +1,3 @@
-/* =============================================
-   Avatar image crop position fix
-   ============================================= */
-
-/* Shift the crop upward so the face is centered in the circle
-   (the source image has empty space at the bottom) */
-img.avatar-circle,
-.avatar-circle img {
-    object-position: center 20%;
-}
-
 /* Custom styles for collaboration carousel */
 
 .collaboration-carousel-section {
