@@ -1,3 +1,30 @@
+/* =============================================
+   Profile / About widget centering fix
+   ============================================= */
+
+.wg-about .portrait-title {
+    text-align: center;
+}
+
+.wg-about .portrait-title h2,
+.wg-about .portrait-title h3 {
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.wg-about .col-xl-4,
+.wg-about .col-lg-4,
+.wg-about .col-12 {
+    text-align: center;
+}
+
+/* Prevent any section from causing horizontal overflow */
+.home-section {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
 /* Custom styles for collaboration carousel */
 
 .collaboration-carousel-section {
