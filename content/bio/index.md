@@ -3,6 +3,12 @@ title: About Me
 type: bio
 
 moments:
+  - year: ""
+    title: Where It All Started
+    description: ""
+    photo: /media/bio/kid-pc.jpg
+    caption: Early days with computers
+
   - year: "2017"
     title: First Encounter with Autonomous Vehicles
     description: ""
