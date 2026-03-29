@@ -3,8 +3,35 @@
 <div class="universal-wrapper container bio-page" role="main">
   <div class="bio-page-inner">
     <h1 class="bio-page-title">{{ .Title }}</h1>
-    <div class="bio-page-content article-style">
-      {{ .Content }}
+
+    <div class="bio-moments">
+      {{ range $i, $item := .Params.moments }}
+      <div class="bio-moment {{ if eq (mod $i 2) 1 }}bio-moment--reversed{{ end }}">
+
+        <div class="bio-moment-photo">
+          {{ if $item.photo }}
+          <img src="{{ $item.photo }}" alt="{{ $item.title }}" loading="lazy" class="bio-moment-img">
+          {{ else }}
+          <div class="bio-moment-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            <span>Photo coming soon</span>
+          </div>
+          {{ end }}
+          {{ with $item.caption }}
+          <p class="bio-moment-caption">{{ . }}</p>
+          {{ end }}
+        </div>
+
+        <div class="bio-moment-content">
+          {{ with $item.year }}
+          <div class="bio-moment-year">{{ . }}</div>
+          {{ end }}
+          <h2 class="bio-moment-title">{{ $item.title | markdownify }}</h2>
+          <div class="bio-moment-description">{{ $item.description | markdownify }}</div>
+        </div>
+
+      </div>
+      {{ end }}
     </div>
   </div>
 </div>
