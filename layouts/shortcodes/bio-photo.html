@@ -1,0 +1,9 @@
+<figure class="bio-figure">
+  <img src="{{ .Get "src" }}"
+       alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" }}{{ end }}"
+       loading="lazy"
+       class="bio-figure-img">
+  {{ with .Get "caption" }}
+  <figcaption class="bio-figure-caption">{{ . }}</figcaption>
+  {{ end }}
+</figure>

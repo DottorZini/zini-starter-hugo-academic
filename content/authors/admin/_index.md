@@ -71,4 +71,6 @@ highlight_name: true
 
 Since 2017, I work and research for making vehicles smarter and safer. Today, I design, implement and validate algorithms for road scene understanding in ADAS software of Renault vehicles. I obtained a PhD in Automation and Robotics from Université de Technologie de Compiègne in partnership with Renault Group.
 
+{{< icon name="book-open" pack="fas" >}} [Read my full story →](/bio)
+
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
