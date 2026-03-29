@@ -13,7 +13,7 @@
     width: 400px;
     height: auto;
     left: 0px;  /* horizontal: center of 400px image in 270px circle */
-    top:  -12px;  /* vertical: matched to your previously tuned value    */
+    top:  -19px;  /* vertical: matched to your previously tuned value    */
 }
 
 /* Custom styles for collaboration carousel */
