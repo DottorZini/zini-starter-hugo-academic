@@ -70,12 +70,29 @@
     /* ─── HERO ─── */
     #hero {
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 4rem;
       padding: 8rem 3rem 5rem;
       max-width: var(--max-width);
       margin: 0 auto;
+    }
+
+    .hero-text {}
+
+    .hero-photo {
+      flex-shrink: 0;
+    }
+
+    .hero-photo img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center top;
+      border: 1px solid var(--border);
+      filter: grayscale(15%);
     }
 
     .hero-label {
@@ -369,6 +386,22 @@
     }
 
     /* ─── RESPONSIVE ─── */
+    @media (max-width: 700px) {
+      #hero {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+      }
+
+      .hero-photo {
+        order: -1;
+      }
+
+      .hero-photo img {
+        width: 140px;
+        height: 140px;
+      }
+    }
+
     @media (max-width: 640px) {
       nav {
         padding: 1rem 1.5rem;
@@ -412,18 +445,23 @@
 
   <!-- ─── HERO ─── -->
   <div id="hero" id="about">
-    <p class="hero-label">Portfolio</p>
-    <h1>
-      <span>Maria-Alejandra</span>
-      <span>DIAZ</span>
-    </h1>
-    <p class="hero-role">Architecte HMONP</p>
-    <p class="hero-location">Versailles, Île-de-France, France</p>
-    <div class="hero-divider"></div>
-    <p class="hero-bio">
-      Architecte HMONP, avec une expérience dans la gestion d'opérations de construction et de réhabilitation, ainsi que dans l'assistance à la direction des travaux, la coordination technique et le suivi opérationnel de projets publics. J'interviens depuis la phase de faisabilité jusqu'à la livraison, en collaboration avec les équipes de maîtrise d'œuvre, les bureaux d'études et les entreprises, dans le cadre d'opérations d'équipements publics. Sensible aux défis liés à la qualité d'utilisation, au contrôle des coûts, aux délais et à la performance environnementale.
-    </p>
-    <p class="scroll-hint">Parcourir</p>
+    <div class="hero-text">
+      <p class="hero-label">Portfolio</p>
+      <h1>
+        <span>Maria-Alejandra</span>
+        <span>DIAZ</span>
+      </h1>
+      <p class="hero-role">Architecte HMONP</p>
+      <p class="hero-location">Versailles, Île-de-France, France</p>
+      <div class="hero-divider"></div>
+      <p class="hero-bio">
+        Architecte HMONP, avec une expérience dans la gestion d'opérations de construction et de réhabilitation, ainsi que dans l'assistance à la direction des travaux, la coordination technique et le suivi opérationnel de projets publics. J'interviens depuis la phase de faisabilité jusqu'à la livraison, en collaboration avec les équipes de maîtrise d'œuvre, les bureaux d'études et les entreprises, dans le cadre d'opérations d'équipements publics. Sensible aux défis liés à la qualité d'utilisation, au contrôle des coûts, aux délais et à la performance environnementale.
+      </p>
+      <p class="scroll-hint">Parcourir</p>
+    </div>
+    <div class="hero-photo">
+      <img src="avatar.jpg" alt="Maria-Alejandra DIAZ" />
+    </div>
   </div>
 
   <!-- ─── EXPERIENCE ─── -->
