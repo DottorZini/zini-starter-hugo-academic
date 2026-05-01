@@ -5,8 +5,8 @@ summary: "I'm thrilled to share that I have been promoted to Senior Software Tec
 
 projects: []
 
-date: "2026-05-01T00:00:00Z"
-lastmod: "2026-05-01T00:00:00Z"
+date: "2025-01-01T00:00:00Z"
+lastmod: "2025-01-01T00:00:00Z"
 
 draft: false
 featured: true

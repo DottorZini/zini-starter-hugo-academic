@@ -41,7 +41,7 @@ experience:
     company_url: ''
     company_logo: renault_software_factory_logo
     location: Paris, France
-    date_start: '2026-05-01'
+    date_start: '2025-01-01'
     date_end: ''
 
   - title: AD/ADAS Software Engineer
@@ -50,7 +50,7 @@ experience:
     company_logo: renault_software_factory_logo
     location: Paris, France
     date_start: '2021-12-01'
-    date_end: '2026-04-30'
+    date_end: ''
 #    description: Taught electronic engineering and researched semiconductor physics.
         
   - title: Research Engineer | PhD Student
