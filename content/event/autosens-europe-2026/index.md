@@ -12,9 +12,9 @@ address:
 summary: Heading to Barcelona for AutoSens Europe 2026 to present on multimodal sensor fusion and quantifying operational uncertainty for AD/ADAS.
 abstract: "Multimodal Sensor Fusion for Autonomous Vehicles: Quantifying Unknown Risk and Operational Uncertainty. Moving beyond perception accuracy toward decision confidence, integrating camera, radar, LiDAR, and learned priors to estimate epistemic uncertainty, detect out-of-distribution events, and compute actionable risk metrics for safe planning under incomplete knowledge."
 
-date: '2026-09-01T09:00:00Z'
-date_end: '2026-09-03T17:00:00Z'
-all_day: false
+date: '2026-04-15T00:00:00Z'
+date_end: '2026-09-24T17:00:00Z'
+all_day: true
 
 publishDate: '2026-04-15T00:00:00Z'
 
@@ -40,7 +40,7 @@ slides: ""
 projects: []
 ---
 
-I'm heading to Barcelona this September for **AutoSens Europe 2026**!
+I'm heading to Barcelona for **AutoSens Europe 2026** (22-24 September 2026)!
 
 I'll be presenting on multimodal sensor fusion and on quantifying uncertainty, basically enabling intelligent cars to take into account the "unknown". Really looking forward to geeking out over ADAS tech with everyone there. See you soon!
 
