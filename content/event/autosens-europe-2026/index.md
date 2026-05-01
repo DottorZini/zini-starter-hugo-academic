@@ -26,10 +26,10 @@ tags: ["AutoSens", "ADAS", "sensor fusion", "uncertainty estimation", "autonomou
 featured: false
 
 links:
-  - icon: linkedin
-    icon_pack: fab
-    name: LinkedIn announcement
-    url: https://linkedin.com/in/federicocamarda
+  - icon: calendar-alt
+    icon_pack: fas
+    name: Preliminary agenda
+    url: https://auto-sens.com/europe/preliminary-agenda/
 
 url_code: ""
 url_pdf: ""
