@@ -6,7 +6,7 @@ title: Federico Camarda
 superuser: true
 
 # Role/position/tagline
-role: Senior Software Tech Lead — AD/ADAS Scene Understanding | PhD in Automation and Robotics
+role: Senior Software Tech Lead, AD/ADAS Scene Understanding | PhD in Automation and Robotics
 
 # Organizations/Affiliations to show in About widget
 organizations:

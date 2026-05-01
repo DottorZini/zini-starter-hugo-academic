@@ -1,5 +1,5 @@
 ---
-title: "Promoted to Senior Software Tech Lead — AD/ADAS Scene Understanding"
+title: "Promoted to Senior Software Tech Lead, AD/ADAS Scene Understanding"
 
 event: Career Milestone
 event_url: ''
@@ -23,4 +23,4 @@ featured: false
 
 I'm excited to share that my promotion to **Senior Software Tech Lead for AD/ADAS Scene Understanding** at Ampère (Renault Group) has just become official, formalising a role I have been holding since 2025.
 
-In this position, I lead the technical direction of the scene understanding stack — perception and semantic interpretation of the driving environment — that powers safer, smarter Renault vehicles.
+In this position, I lead the technical direction of the scene understanding stack (perception and semantic interpretation of the driving environment) that powers safer, smarter Renault vehicles.

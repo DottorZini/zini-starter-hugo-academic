@@ -36,7 +36,7 @@ experience:
   #       * Modelling
   #       * Deploying
         
-  - title: Senior Software Tech Lead — AD/ADAS Scene Understanding
+  - title: Senior Software Tech Lead, AD/ADAS Scene Understanding
     company: Ampère (by Renault Group)
     company_url: ''
     company_logo: renault_software_factory_logo
