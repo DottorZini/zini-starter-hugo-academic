@@ -6,7 +6,7 @@ title: Federico Camarda
 superuser: true
 
 # Role/position/tagline
-role: AD/ADAS Sofware Engineer | PhD in Automation and Robotics
+role: Senior Software Tech Lead — AD/ADAS Scene Understanding | PhD in Automation and Robotics
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -69,7 +69,7 @@ email: ""
 highlight_name: true
 ---
 
-Since 2017, I work and research for making vehicles smarter and safer. Today, I design, implement and validate algorithms for road scene understanding in ADAS software of Renault vehicles. I obtained a PhD in Automation and Robotics from Université de Technologie de Compiègne in partnership with Renault Group.
+Since 2017, I work and research for making vehicles smarter and safer. Today, as Senior Software Tech Lead for AD/ADAS Scene Understanding, I lead the design, implementation and validation of algorithms for road scene understanding in ADAS software of Renault vehicles. I obtained a PhD in Automation and Robotics from Université de Technologie de Compiègne in partnership with Renault Group.
 
 {{< icon name="book-open" pack="fas" >}} [Read my full story →](/bio)
 
