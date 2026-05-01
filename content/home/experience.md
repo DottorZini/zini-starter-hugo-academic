@@ -36,6 +36,14 @@ experience:
   #       * Modelling
   #       * Deploying
         
+  - title: Senior Software Tech Lead, AD/ADAS Scene Understanding
+    company: Ampère (by Renault Group)
+    company_url: ''
+    company_logo: renault_software_factory_logo
+    location: Paris, France
+    date_start: '2025-01-01'
+    date_end: ''
+
   - title: AD/ADAS Software Engineer
     company: Ampère (by Renault Group)
     company_url: ''
